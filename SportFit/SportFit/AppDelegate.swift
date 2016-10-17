@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 // anil testing
-//anil huttiya 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
