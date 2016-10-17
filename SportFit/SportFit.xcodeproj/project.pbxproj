@@ -15,6 +15,8 @@
 		3AC198041DA51C2500BF74D7 /* TodayWorkoutMainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC198031DA51C2500BF74D7 /* TodayWorkoutMainTableViewCell.swift */; };
 		3AFF95EC1DAE76AD005BDE3A /* PageMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFF95EB1DAE76AD005BDE3A /* PageMenuViewController.swift */; };
 		3AFF95EE1DAE76F1005BDE3A /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFF95ED1DAE76F1005BDE3A /* CAPSPageMenu.swift */; };
+		7546B0C51DB579C7003E10CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7546B0C31DB579C7003E10CA /* LaunchScreen.storyboard */; };
+		7546B0C61DB579C7003E10CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7546B0C41DB579C7003E10CA /* Main.storyboard */; };
 		754CB2B91DA43C91009F1C72 /* TodayWorkoutStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754CB2B81DA43C91009F1C72 /* TodayWorkoutStartViewController.swift */; };
 		754CB2BB1DA43CB5009F1C72 /* ShowVideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754CB2BA1DA43CB5009F1C72 /* ShowVideoTableViewController.swift */; };
 		75868B2F1D946A6900B52075 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75868B2E1D946A6900B52075 /* LoginViewController.swift */; };
@@ -27,10 +29,8 @@
 		AF2226951DA45D39004A6A3A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2226941DA45D39004A6A3A /* Constant.swift */; };
 		AF2226971DA45E28004A6A3A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2226961DA45E28004A6A3A /* BaseViewController.swift */; };
 		AFC2B1881D908BF6002CC08E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B1871D908BF6002CC08E /* AppDelegate.swift */; };
-		AFC2B18D1D908BF6002CC08E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC2B18B1D908BF6002CC08E /* Main.storyboard */; };
 		AFC2B1901D908BF6002CC08E /* SportFit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B18E1D908BF6002CC08E /* SportFit.xcdatamodeld */; };
 		AFC2B1921D908BF6002CC08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC2B1911D908BF6002CC08E /* Assets.xcassets */; };
-		AFC2B1951D908BF6002CC08E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC2B1931D908BF6002CC08E /* LaunchScreen.storyboard */; };
 		AFC2B1A01D908BF6002CC08E /* SportFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B19F1D908BF6002CC08E /* SportFitTests.swift */; };
 		AFC2B1AB1D908BF6002CC08E /* SportFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B1AA1D908BF6002CC08E /* SportFitUITests.swift */; };
 		D733EE31D754E2AFCA7B8A57 /* Pods_SportFitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA1C1464DADF08FC4429F8E /* Pods_SportFitUITests.framework */; };
@@ -64,6 +64,8 @@
 		3AFF95EB1DAE76AD005BDE3A /* PageMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageMenuViewController.swift; sourceTree = "<group>"; };
 		3AFF95ED1DAE76F1005BDE3A /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
 		5EA1C1464DADF08FC4429F8E /* Pods_SportFitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportFitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7546B0C31DB579C7003E10CA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7546B0C41DB579C7003E10CA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		754CB2B81DA43C91009F1C72 /* TodayWorkoutStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayWorkoutStartViewController.swift; sourceTree = "<group>"; };
 		754CB2BA1DA43CB5009F1C72 /* ShowVideoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowVideoTableViewController.swift; sourceTree = "<group>"; };
 		75868B2E1D946A6900B52075 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -78,10 +80,8 @@
 		AF2226961DA45E28004A6A3A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		AFC2B1841D908BF6002CC08E /* SportFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC2B1871D908BF6002CC08E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
-		AFC2B18C1D908BF6002CC08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFC2B18F1D908BF6002CC08E /* SportFit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportFit.xcdatamodel; sourceTree = "<group>"; };
 		AFC2B1911D908BF6002CC08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
-		AFC2B1941D908BF6002CC08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFC2B1961D908BF6002CC08E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFC2B19B1D908BF6002CC08E /* SportFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC2B19F1D908BF6002CC08E /* SportFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportFitTests.swift; sourceTree = "<group>"; };
@@ -146,6 +146,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7546B0C21DB579C7003E10CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7546B0C31DB579C7003E10CA /* LaunchScreen.storyboard */,
+				7546B0C41DB579C7003E10CA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		AFC2B17B1D908BF6002CC08E = {
 			isa = PBXGroup;
 			children = (
@@ -171,7 +180,7 @@
 		AFC2B1861D908BF6002CC08E /* SportFit */ = {
 			isa = PBXGroup;
 			children = (
-				AFC2B1C01D908E5A002CC08E /* View */,
+				7546B0C21DB579C7003E10CA /* View */,
 				AFC2B1B81D908E36002CC08E /* Controller */,
 				AFC2B1B91D908E36002CC08E /* Custom Cell */,
 				AFC2B1BA1D908E36002CC08E /* customView */,
@@ -277,15 +286,6 @@
 				AF2226941DA45D39004A6A3A /* Constant.swift */,
 			);
 			path = Utility;
-			sourceTree = "<group>";
-		};
-		AFC2B1C01D908E5A002CC08E /* View */ = {
-			isa = PBXGroup;
-			children = (
-				AFC2B18B1D908BF6002CC08E /* Main.storyboard */,
-				AFC2B1931D908BF6002CC08E /* LaunchScreen.storyboard */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -399,10 +399,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC2B1951D908BF6002CC08E /* LaunchScreen.storyboard in Resources */,
 				3AC198021DA5194800BF74D7 /* TodayWorkotSectionViewCell.xib in Resources */,
+				7546B0C61DB579C7003E10CA /* Main.storyboard in Resources */,
+				7546B0C51DB579C7003E10CA /* LaunchScreen.storyboard in Resources */,
 				AFC2B1921D908BF6002CC08E /* Assets.xcassets in Resources */,
-				AFC2B18D1D908BF6002CC08E /* Main.storyboard in Resources */,
 				3AC197FE1DA5192E00BF74D7 /* TodayWorkoutHeaderViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -601,27 +601,6 @@
 			targetProxy = AFC2B1A71D908BF6002CC08E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		AFC2B18B1D908BF6002CC08E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AFC2B18C1D908BF6002CC08E /* Base */,
-			);
-			name = Main.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		AFC2B1931D908BF6002CC08E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AFC2B1941D908BF6002CC08E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AFC2B1AD1D908BF6002CC08E /* Debug */ = {
