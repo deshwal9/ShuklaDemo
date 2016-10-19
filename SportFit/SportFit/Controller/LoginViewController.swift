@@ -16,6 +16,9 @@ class LoginViewController: BaseViewController {
         setUpRightImageOnNavigationBar()
         // Do any additional setup after loading the view.
     }
+    override func viewWillAppear(animated: Bool) {
+        self.navigationController?.navigationBar.hidden = true
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

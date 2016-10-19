@@ -27,12 +27,12 @@
 		AF2226951DA45D39004A6A3A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2226941DA45D39004A6A3A /* Constant.swift */; };
 		AF2226971DA45E28004A6A3A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2226961DA45E28004A6A3A /* BaseViewController.swift */; };
 		AFC2B1881D908BF6002CC08E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B1871D908BF6002CC08E /* AppDelegate.swift */; };
-		AFC2B18D1D908BF6002CC08E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC2B18B1D908BF6002CC08E /* Main.storyboard */; };
 		AFC2B1901D908BF6002CC08E /* SportFit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B18E1D908BF6002CC08E /* SportFit.xcdatamodeld */; };
 		AFC2B1921D908BF6002CC08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC2B1911D908BF6002CC08E /* Assets.xcassets */; };
-		AFC2B1951D908BF6002CC08E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC2B1931D908BF6002CC08E /* LaunchScreen.storyboard */; };
 		AFC2B1A01D908BF6002CC08E /* SportFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B19F1D908BF6002CC08E /* SportFitTests.swift */; };
 		AFC2B1AB1D908BF6002CC08E /* SportFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B1AA1D908BF6002CC08E /* SportFitUITests.swift */; };
+		AFC5A7DB1DB81A400075CEF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC5A7D91DB81A400075CEF1 /* LaunchScreen.storyboard */; };
+		AFC5A7DC1DB81A400075CEF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC5A7DA1DB81A400075CEF1 /* Main.storyboard */; };
 		D733EE31D754E2AFCA7B8A57 /* Pods_SportFitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA1C1464DADF08FC4429F8E /* Pods_SportFitUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,10 +78,8 @@
 		AF2226961DA45E28004A6A3A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		AFC2B1841D908BF6002CC08E /* SportFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC2B1871D908BF6002CC08E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
-		AFC2B18C1D908BF6002CC08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFC2B18F1D908BF6002CC08E /* SportFit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportFit.xcdatamodel; sourceTree = "<group>"; };
 		AFC2B1911D908BF6002CC08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
-		AFC2B1941D908BF6002CC08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFC2B1961D908BF6002CC08E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFC2B19B1D908BF6002CC08E /* SportFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC2B19F1D908BF6002CC08E /* SportFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportFitTests.swift; sourceTree = "<group>"; };
@@ -89,6 +87,8 @@
 		AFC2B1A61D908BF6002CC08E /* SportFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC2B1AA1D908BF6002CC08E /* SportFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportFitUITests.swift; sourceTree = "<group>"; };
 		AFC2B1AC1D908BF6002CC08E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC5A7D91DB81A400075CEF1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFC5A7DA1DB81A400075CEF1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B3C4F1D4051928CB120CE46D /* Pods-SportFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportFit.release.xcconfig"; path = "Pods/Target Support Files/Pods-SportFit/Pods-SportFit.release.xcconfig"; sourceTree = "<group>"; };
 		B61177CE0825F8C513B30F9C /* Pods-SportFitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportFitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SportFitTests/Pods-SportFitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6EE7F546FD927F474E55541 /* Pods-SportFitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportFitUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SportFitUITests/Pods-SportFitUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -171,7 +171,7 @@
 		AFC2B1861D908BF6002CC08E /* SportFit */ = {
 			isa = PBXGroup;
 			children = (
-				AFC2B1C01D908E5A002CC08E /* View */,
+				AFC5A7D81DB81A400075CEF1 /* View */,
 				AFC2B1B81D908E36002CC08E /* Controller */,
 				AFC2B1B91D908E36002CC08E /* Custom Cell */,
 				AFC2B1BA1D908E36002CC08E /* customView */,
@@ -279,11 +279,11 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
-		AFC2B1C01D908E5A002CC08E /* View */ = {
+		AFC5A7D81DB81A400075CEF1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				AFC2B18B1D908BF6002CC08E /* Main.storyboard */,
-				AFC2B1931D908BF6002CC08E /* LaunchScreen.storyboard */,
+				AFC5A7D91DB81A400075CEF1 /* LaunchScreen.storyboard */,
+				AFC5A7DA1DB81A400075CEF1 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -399,10 +399,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC2B1951D908BF6002CC08E /* LaunchScreen.storyboard in Resources */,
 				3AC198021DA5194800BF74D7 /* TodayWorkotSectionViewCell.xib in Resources */,
+				AFC5A7DC1DB81A400075CEF1 /* Main.storyboard in Resources */,
+				AFC5A7DB1DB81A400075CEF1 /* LaunchScreen.storyboard in Resources */,
 				AFC2B1921D908BF6002CC08E /* Assets.xcassets in Resources */,
-				AFC2B18D1D908BF6002CC08E /* Main.storyboard in Resources */,
 				3AC197FE1DA5192E00BF74D7 /* TodayWorkoutHeaderViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -601,27 +601,6 @@
 			targetProxy = AFC2B1A71D908BF6002CC08E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		AFC2B18B1D908BF6002CC08E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AFC2B18C1D908BF6002CC08E /* Base */,
-			);
-			name = Main.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		AFC2B1931D908BF6002CC08E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AFC2B1941D908BF6002CC08E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AFC2B1AD1D908BF6002CC08E /* Debug */ = {
