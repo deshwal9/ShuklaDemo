@@ -104,7 +104,7 @@ class TodayWorkoutStartViewController: BaseViewController,UITableViewDelegate,UI
     
     
       cell.lblInfoDisplay.text = "Calf Stretch:"
-      cell.lblInfoDisplayFull.text = "2 sets @ 1 Min"
+      cell.lblInfoDisplayFull.text = "2 sets @ 1 "
     
     
     return cell

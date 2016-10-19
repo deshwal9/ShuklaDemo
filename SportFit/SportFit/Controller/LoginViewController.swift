@@ -26,6 +26,10 @@ class LoginViewController: BaseViewController {
     }
 
   
+  override func viewWillAppear(animated: Bool) {
+    self.navigationController?.navigationBarHidden = true
+  }
+  
   
     /*
     // MARK: - Navigation
