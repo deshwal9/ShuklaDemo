@@ -29,7 +29,7 @@ class BaseViewController: UIViewController {
   // MARK:- methods to modify navigation bar
   // method to add logo on left
   func setUpLeftImageOnNavigationBar(){
-    let image = UIImage(named: "Hotwire_Logo_Light")
+    let image = UIImage(named: "To Bar Ath link")
     let imageview:UIImageView = UIImageView.init(frame: kFrame_BarlogoIconSize)
     imageview.image = image
     let logoButton = UIBarButtonItem.init(customView: imageview)
@@ -37,7 +37,7 @@ class BaseViewController: UIViewController {
     self.navigationItem.leftBarButtonItem = logoButton
   }
     func setUpRightImageOnNavigationBar(){
-        let image = UIImage(named: "Hotwire_Logo_Light")
+        let image = UIImage(named: "To Bar Ath link")
         let imageview:UIImageView = UIImageView.init(frame: kFrame_BarlogoIconSize)
         imageview.image = image
         let logoButton = UIBarButtonItem.init(customView: imageview)

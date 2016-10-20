@@ -46,11 +46,14 @@ class ShowVideoTableViewController: BaseViewController,UITableViewDataSource,UIT
     return headerView
   }
   
+  
   func numberOfSectionsInTableView(tableView: UITableView) -> Int {
     return 2
   }
   
   func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    
+    
     return sectionTitle[section]
   }
   

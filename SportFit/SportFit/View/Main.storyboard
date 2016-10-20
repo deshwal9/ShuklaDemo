@@ -19,10 +19,10 @@
                         <rect key="frame" x="0.0" y="44" width="600" height="556"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bF1-yd-igz">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Main Image" translatesAutoresizingMaskIntoConstraints="NO" id="bF1-yd-igz">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iwp-zP-f1d">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iwp-zP-f1d">
                                 <rect key="frame" x="50" y="273" width="500" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -30,7 +30,7 @@
                                     <rect key="frame" x="22" y="434" width="356" height="39"/>
                                 </variation>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nMC-hu-KOa">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nMC-hu-KOa">
                                 <rect key="frame" x="50" y="343" width="500" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -68,7 +68,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="s4b-4O-uZ2">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ath link" translatesAutoresizingMaskIntoConstraints="NO" id="s4b-4O-uZ2">
                                 <rect key="frame" x="120" y="55" width="360" height="112"/>
                             </imageView>
                         </subviews>
@@ -117,7 +117,7 @@
         <scene sceneID="Z35-KK-9Pj">
             <objects>
                 <viewController id="3Fv-Yx-Ed3" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="History" id="gMQ-Yn-98S"/>
+                    <tabBarItem key="tabBarItem" title="History" image="Calender" id="gMQ-Yn-98S"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8rZ-iI-tTh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -127,7 +127,7 @@
         <scene sceneID="rIy-Lu-GiU">
             <objects>
                 <viewController id="mo3-nY-Hct" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Settings" id="jyh-oh-ilo"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="Gear" id="jyh-oh-ilo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GDU-IL-wNc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -308,7 +308,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Workout" id="xc9-2N-7gY"/>
+                    <tabBarItem key="tabBarItem" title="Workout" image="Dumbell" id="xc9-2N-7gY"/>
                     <connections>
                         <outlet property="btnStart" destination="J6P-Ui-JQr" id="cvf-Wf-sZo"/>
                         <outlet property="tblTodayWorkout" destination="DXB-yu-3le" id="v9d-cM-cnj"/>
@@ -546,7 +546,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y17-Uk-jvj">
-                                                    <rect key="frame" x="0.0" y="19" width="600" height="2"/>
+                                                    <rect key="frame" x="0.0" y="17" width="600" height="2"/>
                                                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -555,14 +555,14 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="jWF-Jl-ZNm" firstAttribute="leading" secondItem="3f6-bh-Uyu" secondAttribute="leading" id="1gX-oJ-hnp"/>
-                                                <constraint firstItem="Y17-Uk-jvj" firstAttribute="top" secondItem="3f6-bh-Uyu" secondAttribute="top" constant="19" id="2m7-C3-DUT"/>
+                                                <constraint firstItem="Y17-Uk-jvj" firstAttribute="top" secondItem="3f6-bh-Uyu" secondAttribute="top" constant="17" id="2m7-C3-DUT"/>
                                                 <constraint firstItem="Y17-Uk-jvj" firstAttribute="leading" secondItem="3f6-bh-Uyu" secondAttribute="leading" id="DwV-Xd-MVV"/>
-                                                <constraint firstAttribute="bottom" secondItem="Y17-Uk-jvj" secondAttribute="bottom" constant="1" id="JZf-nA-y8z"/>
+                                                <constraint firstAttribute="bottom" secondItem="Y17-Uk-jvj" secondAttribute="bottom" constant="3" id="JZf-nA-y8z"/>
                                                 <constraint firstItem="jWF-Jl-ZNm" firstAttribute="centerX" secondItem="3f6-bh-Uyu" secondAttribute="centerX" id="Ts1-UQ-hVr"/>
                                                 <constraint firstItem="jWF-Jl-ZNm" firstAttribute="top" secondItem="3f6-bh-Uyu" secondAttribute="top" id="hIz-eO-1VV"/>
                                                 <constraint firstAttribute="trailing" secondItem="jWF-Jl-ZNm" secondAttribute="trailing" id="lHL-qo-qEI"/>
                                                 <constraint firstAttribute="trailing" secondItem="Y17-Uk-jvj" secondAttribute="trailing" id="pXC-64-U69"/>
-                                                <constraint firstAttribute="bottom" secondItem="Y17-Uk-jvj" secondAttribute="bottom" constant="1" id="urg-XP-gmw"/>
+                                                <constraint firstAttribute="bottom" secondItem="Y17-Uk-jvj" secondAttribute="bottom" constant="3" id="urg-XP-gmw"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -699,7 +699,7 @@
                                                         <constraint firstItem="ada-f4-GuS" firstAttribute="width" secondItem="BF1-SF-Ei6" secondAttribute="width" id="xQU-2F-5MG"/>
                                                     </constraints>
                                                 </view>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pq5-47-k5L">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VideoPlay" translatesAutoresizingMaskIntoConstraints="NO" id="pq5-47-k5L">
                                                     <rect key="frame" x="537" y="8" width="55" height="35"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="55" id="iHW-li-sfA"/>
@@ -792,7 +792,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aiH-pr-ZaL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2905" y="-203"/>
+            <point key="canvasLocation" x="2829" y="-218"/>
         </scene>
         <!--Page Menu View Controller-->
         <scene sceneID="NJn-54-16a">
@@ -832,4 +832,12 @@
             <point key="canvasLocation" x="-1004" y="247"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Ath link" width="204" height="76"/>
+        <image name="Calender" width="150" height="90"/>
+        <image name="Dumbell" width="150" height="90"/>
+        <image name="Gear" width="150" height="90"/>
+        <image name="Main Image" width="1200" height="2134"/>
+        <image name="VideoPlay" width="27" height="17"/>
+    </resources>
 </document>
