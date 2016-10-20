@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0E5DD978F0C56286D5BDB9EE /* Pods_SportFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7E276DF463C83FFBE2B857 /* Pods_SportFit.framework */; };
+		3A8BC07F1DB93BA400491005 /* SwiftLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BC07E1DB93BA400491005 /* SwiftLoader.swift */; };
+		3A8BC0831DB93CA100491005 /* activityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BC0811DB93CA100491005 /* activityIndicator.swift */; };
+		3A8BC0841DB93CA100491005 /* AlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BC0821DB93CA100491005 /* AlertExtension.swift */; };
 		3AC197FD1DA5192E00BF74D7 /* TodayWorkoutHeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC197FB1DA5192E00BF74D7 /* TodayWorkoutHeaderViewCell.swift */; };
 		3AC197FE1DA5192E00BF74D7 /* TodayWorkoutHeaderViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AC197FC1DA5192E00BF74D7 /* TodayWorkoutHeaderViewCell.xib */; };
 		3AC198011DA5194800BF74D7 /* TodayWorkotSectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC197FF1DA5194800BF74D7 /* TodayWorkotSectionViewCell.swift */; };
@@ -56,6 +59,9 @@
 /* Begin PBXFileReference section */
 		241DFAFF895998E7F637FB40 /* Pods-SportFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportFit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SportFit/Pods-SportFit.debug.xcconfig"; sourceTree = "<group>"; };
 		3A7E276DF463C83FFBE2B857 /* Pods_SportFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8BC07E1DB93BA400491005 /* SwiftLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftLoader.swift; sourceTree = "<group>"; };
+		3A8BC0811DB93CA100491005 /* activityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = activityIndicator.swift; sourceTree = "<group>"; };
+		3A8BC0821DB93CA100491005 /* AlertExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertExtension.swift; sourceTree = "<group>"; };
 		3AC197FB1DA5192E00BF74D7 /* TodayWorkoutHeaderViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayWorkoutHeaderViewCell.swift; sourceTree = "<group>"; };
 		3AC197FC1DA5192E00BF74D7 /* TodayWorkoutHeaderViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodayWorkoutHeaderViewCell.xib; sourceTree = "<group>"; };
 		3AC197FF1DA5194800BF74D7 /* TodayWorkotSectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayWorkotSectionViewCell.swift; sourceTree = "<group>"; };
@@ -123,6 +129,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A8BC07D1DB93BA400491005 /* SwiftLoader */ = {
+			isa = PBXGroup;
+			children = (
+				3A8BC07E1DB93BA400491005 /* SwiftLoader.swift */,
+			);
+			path = SwiftLoader;
+			sourceTree = "<group>";
+		};
+		3A8BC0801DB93CA100491005 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3A8BC0811DB93CA100491005 /* activityIndicator.swift */,
+				3A8BC0821DB93CA100491005 /* AlertExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		3C1A4737940AD1293B0F88C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,11 +203,10 @@
 		AFC2B1861D908BF6002CC08E /* SportFit */ = {
 			isa = PBXGroup;
 			children = (
+				3A8BC0801DB93CA100491005 /* Extension */,
 				7546B0C21DB579C7003E10CA /* View */,
 				AFC2B1B81D908E36002CC08E /* Controller */,
 				AFC2B1B91D908E36002CC08E /* Custom Cell */,
-				AFC2B1BA1D908E36002CC08E /* customView */,
-				AFC2B1BB1D908E36002CC08E /* Extensionclass */,
 				AFC2B1BC1D908E36002CC08E /* Library */,
 				AFC2B1BD1D908E36002CC08E /* ModelClass */,
 				AFC2B1BE1D908E36002CC08E /* Shared Class */,
@@ -240,24 +262,11 @@
 			path = "Custom Cell";
 			sourceTree = "<group>";
 		};
-		AFC2B1BA1D908E36002CC08E /* customView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = customView;
-			sourceTree = "<group>";
-		};
-		AFC2B1BB1D908E36002CC08E /* Extensionclass */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensionclass;
-			sourceTree = "<group>";
-		};
 		AFC2B1BC1D908E36002CC08E /* Library */ = {
 			isa = PBXGroup;
 			children = (
 				3AFF95ED1DAE76F1005BDE3A /* CAPSPageMenu.swift */,
+				3A8BC07D1DB93BA400491005 /* SwiftLoader */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -551,6 +560,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A8BC0841DB93CA100491005 /* AlertExtension.swift in Sources */,
+				3A8BC07F1DB93BA400491005 /* SwiftLoader.swift in Sources */,
 				3AFF95EE1DAE76F1005BDE3A /* CAPSPageMenu.swift in Sources */,
 				3AC197FD1DA5192E00BF74D7 /* TodayWorkoutHeaderViewCell.swift in Sources */,
 				AF22268C1DA45BF3004A6A3A /* ViewController.swift in Sources */,
@@ -566,6 +577,7 @@
 				AFC2B1901D908BF6002CC08E /* SportFit.xcdatamodeld in Sources */,
 				AF2226951DA45D39004A6A3A /* Constant.swift in Sources */,
 				AFC2B1881D908BF6002CC08E /* AppDelegate.swift in Sources */,
+				3A8BC0831DB93CA100491005 /* activityIndicator.swift in Sources */,
 				AF2226921DA45BFD004A6A3A /* WorkoutTableViewFooterCell.swift in Sources */,
 				3AC198041DA51C2500BF74D7 /* TodayWorkoutMainTableViewCell.swift in Sources */,
 			);

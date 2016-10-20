@@ -33,6 +33,7 @@ class TodayWorkoutStartViewController: BaseViewController,UITableViewDelegate,UI
       btnStart.layer.cornerRadius = 5.0
       
       setUpLeftImageOnNavigationBar()
+      setUpRightImageOnNavigationBar()
          
       tblTodayWorkout.registerNib(UINib(nibName: "TodayWorkoutHeaderViewCell", bundle: nil), forCellReuseIdentifier: cellIdentifierHeader)
       

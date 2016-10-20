@@ -7,8 +7,8 @@ target 'SportFit' do
 
   # Pods for SportFit
  pod 'Alamofire'
-pod 'IQKeyboardManagerSwift'
-
+ pod 'IQKeyboardManagerSwift'
+ pod 'SwiftyJSON'
 
   target 'SportFitTests' do
     inherit! :search_paths

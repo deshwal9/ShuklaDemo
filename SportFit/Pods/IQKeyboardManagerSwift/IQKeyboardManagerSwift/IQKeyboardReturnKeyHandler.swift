@@ -128,12 +128,15 @@ public class IQKeyboardReturnKeyHandler: NSObject , UITextFieldDelegate, UITextV
         var superConsideredView : UIView?
         
         //If find any consider responderView in it's upper hierarchy then will get deepResponderView. (Bug ID: #347)
-        for disabledClass in IQKeyboardManager.sharedManager().toolbarPreviousNextAllowedClasses {
+        for disabledClassString in IQKeyboardManager.sharedManager().toolbarPreviousNextAllowedClasses {
             
-            superConsideredView = view.superviewOfClassType(disabledClass)
-            
-            if superConsideredView != nil {
-                break
+            if let disabledClass = NSClassFromString(disabledClassString) {
+                
+                superConsideredView = view.superviewOfClassType(disabledClass)
+                
+                if superConsideredView != nil {
+                    break
+                }
             }
         }
 
@@ -266,17 +269,20 @@ public class IQKeyboardReturnKeyHandler: NSObject , UITextFieldDelegate, UITextV
         }
     }
     
-    private func goToNextResponderOrResign(view : UIView) -> Bool {
+    private func goToNextResponderOrResign(view : UIView) {
         
         var superConsideredView : UIView?
         
         //If find any consider responderView in it's upper hierarchy then will get deepResponderView. (Bug ID: #347)
-        for disabledClass in IQKeyboardManager.sharedManager().toolbarPreviousNextAllowedClasses {
+        for disabledClassString in IQKeyboardManager.sharedManager().toolbarPreviousNextAllowedClasses {
             
-            superConsideredView = view.superviewOfClassType(disabledClass)
-            
-            if superConsideredView != nil {
-                break
+            if let disabledClass = NSClassFromString(disabledClassString) {
+                
+                superConsideredView = view.superviewOfClassType(disabledClass)
+                
+                if superConsideredView != nil {
+                    break
+                }
             }
         }
         
@@ -309,17 +315,11 @@ public class IQKeyboardReturnKeyHandler: NSObject , UITextFieldDelegate, UITextV
                     
                     let nextTextField = unwrappedTextFields[index+1]
                     nextTextField.becomeFirstResponder()
-                    return false;
                 } else {
                     
                     view.resignFirstResponder()
-                    return true;
                 }
-            } else {
-                return true;
             }
-        } else {
-            return true;
         }
     }
     
@@ -378,18 +378,17 @@ public class IQKeyboardReturnKeyHandler: NSObject , UITextFieldDelegate, UITextV
     
     public func textFieldShouldReturn(textField: UITextField) -> Bool {
         
+        var shouldReturn = true
+        
         if delegate?.respondsToSelector(#selector(UITextFieldDelegate.textFieldShouldReturn(_:))) != nil {
-            let shouldReturn = (delegate?.textFieldShouldReturn?(textField) == true)
-            
-            if shouldReturn == true {
-                goToNextResponderOrResign(textField)
-            }
-
-            return shouldReturn
-
-        } else {
-            return goToNextResponderOrResign(textField)
+            shouldReturn = (delegate?.textFieldShouldReturn?(textField) == true)
         }
+        
+        if shouldReturn == true {
+            goToNextResponderOrResign(textField)
+        }
+        
+        return shouldReturn
     }
     
     
@@ -431,7 +430,7 @@ public class IQKeyboardReturnKeyHandler: NSObject , UITextFieldDelegate, UITextV
         }
         
         if shouldReturn == true && text == "\n" {
-            shouldReturn = goToNextResponderOrResign(textView)
+            goToNextResponderOrResign(textView)
         }
         
         
