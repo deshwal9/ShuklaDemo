@@ -100,9 +100,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         return 1;
     }
     
-//    func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-//        return "Warmup"
-//    }
+
     
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let  headerCell = tableView.dequeueReusableCellWithIdentifier("HeaderCell") as! WorkoutTableViewHeaderCell

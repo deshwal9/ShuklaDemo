@@ -38,7 +38,9 @@ class PageMenuViewController: BaseViewController {
     
     button.titleLabel!.font = UIFont.boldSystemFontOfSize(16.0)
     
-//    button.setImage(UIImage(named: "Attendee-Agenda-Icon"), forState: .Normal)
+    button.addTarget(self, action: #selector(PageMenuViewController.backButtonPressed), forControlEvents: UIControlEvents.TouchUpInside)
+    
+    button.setImage(UIImage(named: "back-arrow"), forState: .Normal)
     button.sizeToFit()
     button.tintColor = UIColor.whiteColor()
     let customBarItem = UIBarButtonItem(customView: button)
@@ -94,6 +96,10 @@ class PageMenuViewController: BaseViewController {
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
+  }
+  
+  func backButtonPressed(){
+    self.navigationController?.popViewControllerAnimated(true)
   }
   
   

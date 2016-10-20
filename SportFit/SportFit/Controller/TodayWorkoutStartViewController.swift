@@ -37,9 +37,17 @@ class TodayWorkoutStartViewController: BaseViewController,UITableViewDelegate,UI
       tblTodayWorkout.registerNib(UINib(nibName: "TodayWorkoutHeaderViewCell", bundle: nil), forCellReuseIdentifier: cellIdentifierHeader)
       
       tblTodayWorkout.registerNib(UINib(nibName: "TodayWorkotSectionViewCell", bundle: nil), forCellReuseIdentifier: cellIdentifierSection)
+      
+      
 
         // Do any additional setup after loading the view.
     }
+  
+  override func viewWillAppear(animated: Bool) {
+    
+    self.navigationItem.hidesBackButton = true
+    self.navigationController?.navigationBarHidden = false
+  }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
